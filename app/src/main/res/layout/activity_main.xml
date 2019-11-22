@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/smallTemplate"
+        app:gnt_template_type="@layout/gnt_small_template_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/mediumTemplate"
+        app:gnt_template_type="@layout/gnt_medium_template_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
